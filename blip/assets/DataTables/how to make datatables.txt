@@ -1,0 +1,15 @@
+How to Make DataTable
+
+- folder DataTables pindahin ke assets
+- koneksiin css datatable :
+
+<link rel="stylesheet" href="<?= base_url('assets/DataTables/css/jquery.dataTables.min.css')?>">
+
+<script src="<?= base_url('assets/DataTables/js/jquery.dataTables.min.js')?>"></script>
+
+- tambahin script di admin_footer
+    <script type="text/javascript">
+    $(document).ready( function () {
+    $('.table').DataTable();
+    } );
+    </script>

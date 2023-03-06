@@ -1,0 +1,5 @@
+- nama file gambar nggak muncul setelah dichoose file.
+- sidebar dan isi masi berantakan
+- hak akses role belom bisa. 
+- scriptnya nggak kebaca. (tutup div salah?)
+- button cancel nggak sejajar sama save changes
